@@ -1,7 +1,7 @@
 library (tidyverse)
 library(readr)
 #read in data
-US<-read_csv("us-states.csv")
+US<-read_csv("us-states.csv") # Failed to read from submodule
 PA<-filter(US, state=="Pennsylvania")
 n<-length(US$date)
 
